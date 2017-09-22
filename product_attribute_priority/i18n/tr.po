@@ -1,0 +1,58 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* product_attribute_priority
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-09-22 06:41+0000\n"
+"PO-Revision-Date: 2017-09-22 06:41+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: product_attribute_priority
+#: help:product.attribute.value,value_sequence:0
+msgid "Allow to sort attributes values"
+msgstr "Özellik değerlerini sıralamaya yarar"
+
+#. module: product_attribute_priority
+#: field:product.attribute.line,attribute_sequence:0
+msgid "Priority"
+msgstr "Öncelik"
+
+#. module: product_attribute_priority
+#: model:ir.model,name:product_attribute_priority.model_product_attribute
+msgid "Product Attribute"
+msgstr "Ürün Özelliği"
+
+#. module: product_attribute_priority
+#: field:product.attribute,sequence:0
+msgid "Sequence"
+msgstr "Sıralama"
+
+#. module: product_attribute_priority
+#: field:product.attribute.value,attribute_sequence:0
+msgid "Sequence Attribute"
+msgstr "Özellik Sıralaması"
+
+#. module: product_attribute_priority
+#: field:product.attribute.value,value_sequence:0
+msgid "Sequence Value"
+msgstr "Sıralama değeri"
+
+#. module: product_attribute_priority
+#: help:product.attribute,sequence:0
+msgid "Set the display order of the attributes in backoffice and reports"
+msgstr "Özelliklerin ekranlarda ve raporlardaki sıralamasını ayarlar"
+
+#. module: product_attribute_priority
+#: help:product.attribute.line,attribute_sequence:0
+#: help:product.attribute.value,attribute_sequence:0
+msgid "Set the display order of the attributes in backoffice and reports (defined in Product Attribute)"
+msgstr "Ürün özelliklerinin raporlarda ve ekranlardaki görünme sırasını belirler (Ürün özelliklerinde tanımlanan)"
+
