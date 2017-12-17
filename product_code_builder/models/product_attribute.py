@@ -23,7 +23,7 @@ class ProductAttribute(models.Model):
 class ProductAttributeValue(models.Model):
     _inherit = "product.attribute.value"
     _code = "code"
-    _order = "attribute_sequence,sequence,name"
+    _order = "attribute_sequence,attribute_id,sequence,name"
 
     code = fields.Char('Code')
     comment = fields.Text('Comment')
