@@ -11,4 +11,5 @@ except ImportError:
 
 
 def pre_init_hook(cr):
+    return
     pre_init_hook_for_submodules(cr, "product.template", "image")
