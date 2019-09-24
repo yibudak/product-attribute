@@ -21,7 +21,7 @@ msgstr ""
 #. module: product_multi_image
 #: view:base_multi_image.image:product_multi_image.image_form_view
 msgid "(keep empty for being visible for all variants)"
-msgstr ""
+msgstr "(bütün ürün çeşitlerinde görünür olması için boş bırakın)"
 
 #. module: product_multi_image
 #: help:base_multi_image.image,product_variant_ids:0
@@ -30,18 +30,20 @@ msgid ""
 "several of the available variants, you restrict the availability of the "
 "image to those variants."
 msgstr ""
+"Eğer bu alanı boş bırakırsanız  resim ürünün bütün çeşitlerinde gözükecektir. "
+"Bir ya da birden fazla çeşit seçerseniz sadece seçtiğiniz çeşite gözükür. "
 
 #. module: product_multi_image
 #: field:product.product,image_ids:0
 #: view:product.template:product_multi_image.view_product_template_form_img_inh
 #: field:product.template,image_ids:0
 msgid "Images"
-msgstr ""
+msgstr "Web Resimleri"
 
 #. module: product_multi_image
 #: field:product.product,image_main:0 field:product.template,image_main:0
 msgid "Main image"
-msgstr ""
+msgstr "Ana Resim"
 
 #. module: product_multi_image
 #: field:product.product,manufacturer:0
@@ -61,18 +63,18 @@ msgstr "Üreticinin Ürün Adı"
 #. module: product_multi_image
 #: field:product.product,manufacturer_purl:0
 msgid "Manufacturer Product URL"
-msgstr ""
+msgstr "Üretici Ürün URL"
 
 #. module: product_multi_image
 #: field:product.product,image_main_medium:0
 #: field:product.template,image_main_medium:0
 msgid "Medium image"
-msgstr ""
+msgstr "Orta Resim"
 
 #. module: product_multi_image
 #: model:ir.model,name:product_multi_image.model_product_product
 msgid "Product"
-msgstr ""
+msgstr "Ürün"
 
 #. module: product_multi_image
 #: field:product.product,categ_ids:0
@@ -82,35 +84,35 @@ msgstr "Ürün Kategorileri"
 #. module: product_multi_image
 #: model:ir.model,name:product_multi_image.model_product_template
 msgid "Product Template"
-msgstr ""
+msgstr "Ürün Şablonu"
 
 #. module: product_multi_image
 #: field:base_multi_image.image,product_variant_count:0
 msgid "Product variant count"
-msgstr ""
+msgstr "Ürün Çeşidi sayısı"
 
 #. module: product_multi_image
 #: field:product.product,image_main_small:0
 #: field:product.template,image_main_small:0
 msgid "Small image"
-msgstr ""
+msgstr "Küçük resim"
 
 #. module: product_multi_image
 #: view:base_multi_image.image:product_multi_image.image_kanban_view
 msgid "Visible in"
-msgstr ""
+msgstr "Görünür olduğu çeşitler"
 
 #. module: product_multi_image
 #: view:base_multi_image.image:product_multi_image.image_kanban_view
 msgid "Visible in all variants"
-msgstr ""
+msgstr "Tüm çeşitlerde görünür"
 
 #. module: product_multi_image
 #: field:base_multi_image.image,product_variant_ids:0
 msgid "Visible in these variants"
-msgstr ""
+msgstr "Şu çeşitlerde görünür"
 
 #. module: product_multi_image
 #: view:base_multi_image.image:product_multi_image.image_kanban_view
 msgid "variant(s)"
-msgstr ""
+msgstr "Çeşit"
