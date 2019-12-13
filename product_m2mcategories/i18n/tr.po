@@ -20,7 +20,7 @@ msgstr ""
 #. module: product_m2mcategories
 #: constraint:ir.ui.view:0
 msgid "Invalid XML for View Architecture!"
-msgstr ""
+msgstr "Görünüm mimarisi için geçersiz XML!"
 
 #. module: product_m2mcategories
 #: field:product.template,categ_ids:0
@@ -30,12 +30,12 @@ msgstr "Ürün Kategorileri"
 #. module: product_m2mcategories
 #: view:product.product:0
 msgid "Classification Categories"
-msgstr ""
+msgstr "Ek Kategoriler"
 
 #. module: product_m2mcategories
 #: model:ir.module.module,shortdesc:product_m2mcategories.module_meta_information
 msgid "Product - Many Categories"
-msgstr ""
+msgstr "Ürün - Çoklu Kategori "
 
 #. module: product_m2mcategories
 #: model:ir.module.module,description:product_m2mcategories.module_meta_information
@@ -49,8 +49,16 @@ msgid ""
 "Open ERP connector\n"
 "    "
 msgstr ""
+"\n"
+"    Bu modül Odoo'nun bir ürün bir kategori özelliğini geliştirir (bir "
+"ürün - bir kategori)\n"
+"    bir ürün -> bir çok kategori\n"
+"\n"
+"    *Not: Bu modül genel bir modül olarak geliştirildi ama odak noktası Magento "
+"Odoo bağlantısıdır\n"
+"    "
 
 #. module: product_m2mcategories
 #: view:product.product:0
 msgid "Extra Categories"
-msgstr ""
+msgstr "Ek Kategoriler"
